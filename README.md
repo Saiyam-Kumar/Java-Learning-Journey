@@ -1,4 +1,4 @@
-# ☕ Java Practice
+# ☕ Java Learning Journey
 
 This repository contains my **Java learning journey** starting from basic concepts to Object-Oriented Programming and exception handling.
 

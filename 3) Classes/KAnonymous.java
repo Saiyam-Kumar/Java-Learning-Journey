@@ -10,6 +10,7 @@ public class KAnonymous{
 public static void main(String args[]){
     // Anonymous class that overrides makeSound()
     Animal myanimal = new Animal(){
+        
         public void makeSound(){
             System.out.println("wow-wow");
         }

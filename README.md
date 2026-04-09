@@ -11,6 +11,7 @@ This repository contains my **Java learning journey** starting from basic concep
 - Exception Handling
 - File Handling
 - I/O Streams (File Streams,Buffered Streams)
+- Threads
 
 ## 🎯 Purpose
 To strengthen my **core Java concepts** and improve my programming and problem-solving skills.

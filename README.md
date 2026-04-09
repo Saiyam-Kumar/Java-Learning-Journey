@@ -1,6 +1,6 @@
 # ☕ Java Learning Journey
 
-This repository contains my **Java learning journey** starting from basic concepts to Object-Oriented Programming and exception handling.
+This repository contains my **Java learning journey** starting from basic concepts to Object-Oriented Programming,Exception handling,File handling and Threads.
 
 ## 📚 Topics Covered
 - Java Basics

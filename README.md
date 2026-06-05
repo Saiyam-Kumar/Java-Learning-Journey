@@ -14,7 +14,7 @@ This repository contains my **Java learning journey** starting from Basic concep
 - Multithreading
 - AWT (Abstract Window Toolkit)
 - Swing
-- JDBC (Java Database Connectivity
+- JDBC (Java Database Connectivity)
 
 ## 🎯 Purpose
 To strengthen my **core Java concepts** and improve my programming and problem-solving skills.

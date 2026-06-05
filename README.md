@@ -12,6 +12,7 @@ This repository contains my **Java learning journey** starting from Basic concep
 - File Handling
 - I/O Streams (File Streams,Buffered Streams)
 - Threads
+- AWT
 
 ## 🎯 Purpose
 To strengthen my **core Java concepts** and improve my programming and problem-solving skills.

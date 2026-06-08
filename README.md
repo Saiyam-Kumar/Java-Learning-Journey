@@ -206,7 +206,7 @@ This repository was created to:
 
 ---
 
-## 🎯 Next Learning Goals
+## 🎯 Future Learning Goals
 
 🔜 Spring Framework
 

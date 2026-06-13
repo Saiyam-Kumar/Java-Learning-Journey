@@ -1,279 +1,233 @@
-<div align="center">
-
-<img src="https://img.shields.io/badge/Java-JDK%2021-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/IDE-VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
-<img src="https://img.shields.io/badge/Status-Complete-28a745?style=for-the-badge" />
-
-<br /><br />
-
 # ☕ Java Learning Journey
 
-### A comprehensive, structured repository documenting my progression through **Core Java** —  
-from fundamental programming concepts to **OOP, Exception Handling, File Handling, Multithreading, GUI Development, and JDBC**.
+A structured repository documenting my journey of learning **Core Java**, starting from fundamental programming concepts and progressing through **Object-Oriented Programming, Exception Handling, File Handling, Multithreading, GUI Development (AWT & Swing), and JDBC**.
 
-<br />
-
-</div>
+This repository contains practical examples, programs, and mini applications that helped me build a strong foundation in Java development.
 
 ---
 
-## 📌 Overview
-
-This repository serves as a personal knowledge base and reference guide built while learning Core Java from the ground up. Each module contains practical examples, programs, and mini-applications that solidify theoretical concepts through hands-on implementation.
-
-> **Goal:** Build a strong, production-aware Java foundation before advancing to the Spring ecosystem and full-stack development.
-
----
-
-## 🏛️ Learning Architecture
+## 🏛 Learning Architecture
 
 ```mermaid
 flowchart TD
-    A["☕ Java Fundamentals"]
-    B["🔧 Methods"]
 
-    subgraph core["⚙️ Core Java"]
-        C["🧩 Object-Oriented Programming"]
-        D["⚠️ Exception Handling"]
-        E["📁 File Handling"]
-        F["🌊 IO Streams"]
-        G["🧵 Multithreading"]
+    A["Java Fundamentals"]
+    B["Methods"]
+
+    subgraph Core Java
+        C["Object-Oriented Programming"]
+        D["Exception Handling"]
+        E["File Handling"]
+        F["IO Streams"]
+        G["Multithreading"]
     end
 
-    subgraph gui["🖥️ GUI Development"]
-        H["🪟 AWT"]
-        I["🎨 Swing"]
+    subgraph GUI Development
+        H["AWT"]
+        I["Swing"]
     end
 
-    subgraph db["🗄️ Database"]
-        J["🔌 JDBC"]
+    subgraph Database
+        J["JDBC"]
     end
 
-    subgraph future["🚀 Future Learning"]
-        K["🌱 Spring Framework"]
-        L["⚡ Spring Boot"]
+    subgraph Future Learning
+        K["Spring Framework"]
+        L["Spring Boot"]
     end
 
-    A --> B --> C --> D --> E --> F --> G --> H --> I --> J
-    J -.->|"upcoming"| K -.-> L
-
-    style core fill:#1a1a2e,stroke:#4a90d9,color:#fff
-    style gui fill:#1a1a2e,stroke:#7b68ee,color:#fff
-    style db fill:#1a1a2e,stroke:#2ecc71,color:#fff
-    style future fill:#1a1a2e,stroke:#e74c3c,color:#fff,stroke-dasharray: 5 5
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+    H --> I
+    I --> J
+    J -.-> K
+    K -.-> L
 ```
 
 ---
 
-## 📂 Repository Structure
+## 📚 Repository Structure
 
-```
-java-learning-journey/
-│
-├── 01_Basics/                  # Variables, data types, loops, arrays, strings
-├── 02_Methods/                 # Method declarations, overloading, return types
-├── 03_Classes/                 # OOP — classes, objects, constructors, inheritance
-├── 04_Exceptions/              # Try-catch, finally, throw/throws, custom exceptions
-├── 05_File_Handling/           # Reading, writing, and file operations
-├── 06_IO_Streams/              # Byte streams, character streams, buffered I/O
-├── 07_Multithreading/          # Thread class, Runnable, synchronization
-├── 08_AWT/                     # GUI basics, event handling, calculator app
-├── 09_Swing/                   # Advanced GUI, menus, dialogs, forms
-└── 10_JDBC/                    # MySQL connectivity, CRUD, prepared statements
+```text
+01) Basics
+02) Methods
+03) Classes
+04) Exceptions
+05) File Handling
+06) IO Streams
+07) Multithreading
+08) AWT
+09) Swing
+10) JDBC
 ```
 
 ---
 
-## 🧠 Topics Covered
+## 🚀 Topics Covered
 
-<details>
-<summary><b>🔹 Java Fundamentals</b></summary>
+### 🔹 Java Fundamentals
 
-| Topic | Description |
-|---|---|
-| Variables & Data Types | Primitive and reference types |
-| Operators | Arithmetic, logical, bitwise, ternary |
-| User Input | `Scanner` class and console input |
-| Conditional Statements | `if-else`, `switch-case` |
-| Loops | `for`, `while`, `do-while`, enhanced `for` |
-| Arrays | 1D, 2D arrays, array manipulation |
-| Strings | String methods, `StringBuilder`, immutability |
+* Variables & Data Types
+* Operators
+* User Input
+* Conditional Statements
+* Loops
+* Arrays
+* Strings
 
-</details>
+### 🔹 Methods
 
-<details>
-<summary><b>🔹 Methods</b></summary>
+* Method Declaration
+* Method Overloading
+* Parameters & Arguments
+* Return Types
 
-| Topic | Description |
-|---|---|
-| Method Declaration | Syntax, access modifiers, naming conventions |
-| Overloading | Multiple methods with the same name |
-| Parameters & Arguments | Pass by value, varargs |
-| Return Types | `void`, primitive, and object returns |
+### 🔹 Object-Oriented Programming
 
-</details>
+* Classes & Objects
+* Constructors
+* Inheritance
+* Polymorphism
+* Abstraction
+* Encapsulation
 
-<details>
-<summary><b>🔹 Object-Oriented Programming</b></summary>
+### 🔹 Exception Handling
 
-| Pillar | Key Concepts |
-|---|---|
-| Classes & Objects | Blueprints, instantiation, `this` keyword |
-| Constructors | Default, parameterized, constructor chaining |
-| Inheritance | `extends`, method overriding, `super` |
-| Polymorphism | Compile-time & runtime polymorphism |
-| Abstraction | Abstract classes & interfaces |
-| Encapsulation | Access modifiers, getters/setters |
+* Try-Catch Blocks
+* Multiple Catch Blocks
+* Finally Block
+* Throw & Throws
+* Custom Exceptions
 
-</details>
+### 🔹 File Handling
 
-<details>
-<summary><b>🔹 Exception Handling</b></summary>
+* Reading Files
+* Writing Files
+* File Operations
 
-- `try-catch` and multiple catch blocks
-- `finally` block and resource cleanup
-- `throw` vs `throws`
-- Custom exception classes
-- Checked vs unchecked exceptions
+### 🔹 IO Streams
 
-</details>
+* FileInputStream
+* FileOutputStream
+* Buffered Streams
+* Character Streams
 
-<details>
-<summary><b>🔹 File Handling & IO Streams</b></summary>
+### 🔹 Multithreading
 
-- Reading and writing files with `FileReader` / `FileWriter`
-- `FileInputStream` / `FileOutputStream`
-- `BufferedReader` / `BufferedWriter` for performance
-- Character vs byte streams
+* Thread Class
+* Runnable Interface
+* Thread Lifecycle
+* Synchronization
 
-</details>
+### 🔹 AWT
 
-<details>
-<summary><b>🔹 Multithreading</b></summary>
+* Buttons
+* Labels
+* Text Fields
+* Checkboxes
+* Event Handling
+* Calculator Application
 
-- Extending `Thread` class and implementing `Runnable`
-- Thread lifecycle: New → Runnable → Running → Blocked → Dead
-- `synchronized` keyword and thread safety
-- `wait()`, `notify()`, `notifyAll()`
+### 🔹 Swing
 
-</details>
+* Radio Buttons
+* Combo Boxes
+* Menus
+* Mouse Events
+* Dialog Boxes
+* Tabbed Panes
+* Form Applications
 
-<details>
-<summary><b>🔹 GUI — AWT</b></summary>
+### 🔹 JDBC
 
-- Core components: `Button`, `Label`, `TextField`, `Checkbox`
-- `ActionListener`, `MouseListener`, and event handling
-- Layout managers: `FlowLayout`, `BorderLayout`, `GridLayout`
-- **Mini Project:** Calculator Application
-
-</details>
-
-<details>
-<summary><b>🔹 GUI — Swing</b></summary>
-
-- `JRadioButton`, `JComboBox`, `JMenuBar`, `JTabbedPane`
-- `JDialog`, `JOptionPane` for dialog boxes
-- Mouse events and advanced event handling
-- **Mini Project:** Form Application
-
-</details>
-
-<details>
-<summary><b>🔹 JDBC — Database Connectivity</b></summary>
-
-| Operation | Description |
-|---|---|
-| Connection | `DriverManager`, connection strings |
-| DDL | Creating and dropping tables |
-| DML | `INSERT`, `UPDATE`, `DELETE` records |
-| DQL | `SELECT` with filters and ordering |
-| Prepared Statements | Parameterized queries |
-| SQL Injection Prevention | Safe input handling |
-
-</details>
+* Database Connectivity
+* Creating Tables
+* Inserting Records
+* Reading Records
+* Updating Records
+* Deleting Records
+* Prepared Statements
+* SQL Injection Prevention
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Technologies Used
 
-| Category | Technology |
-|---|---|
-| Language | Java (JDK 21) |
-| Database | MySQL 8.0 |
-| DB Client | MySQL Workbench |
-| GUI Frameworks | AWT, Swing |
-| DB Connectivity | JDBC |
-| IDE | Visual Studio Code |
-| Version Control | Git & GitHub |
-
----
-
-## 📈 Progress Tracker
-
-| Module | Status |
-|---|---|
-| Java Fundamentals | ✅ Complete |
-| Methods | ✅ Complete |
-| Object-Oriented Programming | ✅ Complete |
-| Exception Handling | ✅ Complete |
-| File Handling | ✅ Complete |
-| IO Streams | ✅ Complete |
-| Multithreading | ✅ Complete |
-| AWT | ✅ Complete |
-| Swing | ✅ Complete |
-| JDBC | ✅ Complete |
-| Spring Framework | 🔜 Upcoming |
-| Spring Boot | 🔜 Upcoming |
-| REST APIs | 🔜 Upcoming |
-| Full-Stack Development | 🔜 Upcoming |
+* Java (JDK 21)
+* MySQL
+* MySQL Workbench
+* JDBC
+* AWT
+* Swing
+* Git
+* GitHub
+* VS Code
 
 ---
 
-## 🎯 Purpose & Goals
+## 🎯 Purpose
 
-This repository was built to:
+This repository was created to:
 
-- ✔️ Develop a solid, well-rounded understanding of Core Java
-- ✔️ Practice OOP design principles through real code
-- ✔️ Learn Java GUI development using AWT and Swing
-- ✔️ Integrate Java applications with a relational database via JDBC
-- ✔️ Establish a strong foundation before advancing to the Spring ecosystem
+* Strengthen Core Java concepts
+* Understand Object-Oriented Programming
+* Learn Java GUI Development
+* Work with Databases using JDBC
+* Build a strong foundation before moving to advanced Java technologies
 
 ---
 
-## 🚀 Getting Started
+## 📈 Current Progress
 
-```bash
-# Clone the repository
-git clone https://github.com/Saiyam-Kumar/java-learning-journey.git
+✅ Java Fundamentals
 
-# Navigate into the project
-cd java-learning-journey
+✅ Methods
 
-# Open in VS Code
-code .
-```
+✅ Object-Oriented Programming
 
-> **Prerequisites:** Java JDK 21+, MySQL 8.0+, VS Code or any Java IDE
+✅ Exception Handling
+
+✅ File Handling
+
+✅ IO Streams
+
+✅ Multithreading
+
+✅ AWT
+
+✅ Swing
+
+✅ JDBC
+
+---
+
+## 🎯 Next Learning Goals
+
+🔜 Spring Framework
+
+🔜 Spring Boot
+
+🔜 REST APIs
+
+🔜 Backend Development
+
+🔜 Full-Stack Java Applications
 
 ---
 
 ## 👨‍💻 Author
 
-<div align="center">
+**Saiyam Kumar**
 
-**Saiyam Kumar**  
-*Passionate about Java Development, Problem Solving, and Software Engineering*
+Passionate about Java Development, Problem Solving, and Software Engineering.
 
-[![GitHub](https://img.shields.io/badge/GitHub-Saiyam--Kumar-181717?style=for-the-badge&logo=github)](https://github.com/Saiyam-Kumar)
-
-</div>
+GitHub: https://github.com/Saiyam-Kumar
 
 ---
 
-<div align="center">
-
-*If this repository helped you in any way, consider giving it a* ⭐ — *it means a lot!*
-
-</div>
+⭐ If you found this repository useful, consider giving it a star.
